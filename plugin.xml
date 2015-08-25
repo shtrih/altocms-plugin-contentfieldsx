@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <id>contentfieldsx</id>
+    <name>
+        <lang name="default">Content Fields eXtended</lang>
+    </name>
+    <author>
+        <lang name="default">shtrih</lang>
+    </author>
+    <homepage>http://4otaku.org</homepage>
+    <version>1.0.0</version>
+    <dirname>contentfieldsx</dirname>
+    <requires>
+        <alto>
+             <version>1.1.0-b2</version>
+        </alto>
+        <system>
+            <php>5.3.0</php>
+        </system>
+    </requires>
+    <description>
+        <lang name="default">Description of plugin Contentfieldsx</lang>
+        <lang name="russian">Расширяет дополнительные поля типов контента: добавляет возможность давать уникальное имя полю, чтобы в шаблоне по имени получать значение поля, не привязываясь к «магическим числам» — идентификаторам полей. Подробности настройки в README.md</lang>
+    </description>
+</plugin>
