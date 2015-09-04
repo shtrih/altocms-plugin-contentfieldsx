@@ -3,4 +3,6 @@
  * Конфиг
  */
 
-return $config = array();
+$config = array();
+
+return $config;

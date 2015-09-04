@@ -21,9 +21,6 @@ class PluginContentfieldsx extends Plugin {
              * 'template'=>array('actions/ActionIndex/index.tpl'=>'_actions/ActionTest/index.tpl'),
              * Замена index.tpl из скина из папки actions/ActionIndex/ файлом /common/plugins/abcplugin/templates/skin/default/actions/ActionTest/index.tpl
              */
-        'template' => array(
-            'tpls/actions/admin/action.admin.settings/contenttypes_fieldadd.tpl' => '_tpls/actions/admin/action.admin.settings/contenttypes_fieldadd.tpl'
-        )
     );
 
     // Объявление переопределений (модули, мапперы, экшны и сущности)
