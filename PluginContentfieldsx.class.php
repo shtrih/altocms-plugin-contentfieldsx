@@ -63,7 +63,7 @@ class PluginContentfieldsx extends Plugin {
 
     // Активация плагина
     public function Activate() {
-        if (!$this->isFieldExists('prefix_content_field', 'field_unique_name')) {
+        if (!$this->isFieldExists('?_content_field', 'field_unique_name')) {
             $this->ExportSQL(dirname(__FILE__).'/install.sql');
         }
 
